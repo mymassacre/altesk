@@ -11,7 +11,7 @@
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://app-85b4dfea-e692-4bf5-8fc1-2ae568ada030-do-user-7110716-0.b.db.ondigitalocean.com:25060/db</jdbc-url>
+      <jdbc-url>jdbc:postgresql://app-0667333e-94ec-49f8-961e-2dd370f9ebec-do-user-7110716-0.b.db.ondigitalocean.com:25060/db</jdbc-url>
     </data-source>
   </component>
 </project>
