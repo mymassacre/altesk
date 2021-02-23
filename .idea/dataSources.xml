@@ -7,5 +7,11 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db.sqlite3</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="db@.db.ondigitalocean.com" uuid="e566a92b-bf30-4b5d-86e2-8f1861347f60">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://app-85b4dfea-e692-4bf5-8fc1-2ae568ada030-do-user-7110716-0.b.db.ondigitalocean.com:25060/db</jdbc-url>
+    </data-source>
   </component>
 </project>
