@@ -1,9 +1,10 @@
 from django.db import models
+from ckeditor.fields import RichTextField
 
 
 class Content(models.Model):
     name = models.CharField("Название", max_length=250)
-    description = models.TextField("Содержание", blank=True)
+    description = RichTextField("Содержание", blank=True)
 
     def __str__(self):
         return self.name

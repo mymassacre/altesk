@@ -1,3 +1,5 @@
+$('.ckcontent p').addClass('text-lg');
+
 if (window.location.pathname === '/') {
     $("#glavnaya").addClass('sidebar-item active');
 }
@@ -355,7 +357,7 @@ if (window.location.pathname === '/potrebitelyam/obsluzhivanie_potrebitelej/inte
 }
 ;
 
-if (window.location.pathname === '/otrebitelyam/obsluzhivanie_potrebitelej/normativnye_dokumenty_po_obsluzhivaniyu_potrebitelej') {
+if (window.location.pathname === '/potrebitelyam/obsluzhivanie_potrebitelej/normativnye_dokumenty_po_obsluzhivaniyu_potrebitelej') {
     $("#normativnye_dokumenty_po_obsluzhivaniyu_potrebitelej").addClass('sidebar-item active');
 }
 ;

@@ -933,10 +933,15 @@
                         <hr class="my-4">
                         <div id="introduction" class="mb-5">
                             <h3></h3>
-                            <p class="text-lg">
+                            <div class="ckcontent">
+                                <p class="text-lg ckcontent" >
                                 {% block content %}{% endblock content %}
-                                {{ content.description }}
-                            </p>
+                                {% autoescape off %}
+                                    {{ content.description }}
+                                {% endautoescape %}
+                                </p>
+
+                            </div>
                         </div>
                         {% comment %}{{ content.contentfile_set.get.file }}{% endcomment %}
                         <div id="Documents" class="mb-5">
