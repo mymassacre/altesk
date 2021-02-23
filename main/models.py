@@ -15,7 +15,7 @@ class Content(models.Model):
 
 class ContentFile(models.Model):
     name = models.CharField("Название файла", max_length=250)
-    category = models.ManyToManyField("Content", null=True)
+    category = models.ManyToManyField("Content")
     description = models.TextField("Описание", blank=True)
     file = models.FileField("Файл", upload_to='files/')
     date_month = models.PositiveIntegerField("Расчетный период: месяц", default=0)
